@@ -1,0 +1,6 @@
+version: '3'
+services:
+  go-react-bundle:
+    build: .
+    ports:
+      - 1323:1323
